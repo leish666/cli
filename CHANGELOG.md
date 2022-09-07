@@ -1,5 +1,51 @@
 # Changelog
 
+## [8.20.0](https://github.com/leish666/cli/compare/v8.19.1...v8.20.0) (2022-09-07)
+
+### Features
+
+  * [`d94a9f5`](https://github.com/leish666/cli/commit/d94a9f56cce1de32bfd87f841d7678e8394d8ea6) [#5347](https://github.com/npm/cli/pull/5347) feat: add deprecation warnings to access commands (@wraithgar)
+
+### Bug Fixes
+
+  * [`d60b43f`](https://github.com/leish666/cli/commit/d60b43f3825452dd8b9b5879c287df232c9a8dc8) [#5438](https://github.com/npm/cli/pull/5438) fix: Turn off progress bar when using web based authorization (@sandeepmeduru)
+  * [`bd2ae5d`](https://github.com/leish666/cli/commit/bd2ae5d79eb8807bfca6075e98432c545a9ededa) [#5323](https://github.com/npm/cli/pull/5323) fix: linting (@wraithgar)
+
+### Documentation
+
+  * [`3569094`](https://github.com/leish666/cli/commit/356909424f60a26d90faf25594085e79e93f09d5) [#5321](https://github.com/npm/cli/pull/5321) docs: fix link to dependency selectors page (@hghmn)
+  * [`414667a`](https://github.com/leish666/cli/commit/414667a1e6d7d7a3ab0cb64704c3aa696eae8715) [#5328](https://github.com/npm/cli/pull/5328) docs(dependency-selectors): fix Arborist example in docs (@kyle-west)
+
+### Dependencies
+
+  * [`1286f03`](https://github.com/leish666/cli/commit/1286f03fe73dee9a447b13b662f0c5622ab6ec9e) [#5381](https://github.com/npm/cli/pull/5381) deps: `unique-filename@2.0.1`
+  * [`d7e9a8e`](https://github.com/leish666/cli/commit/d7e9a8ed5b7c1f9ca8d34e86388a134b2f48fc15) [#5381](https://github.com/npm/cli/pull/5381) deps: `ini@3.0.1`
+  * [`2c4e387`](https://github.com/leish666/cli/commit/2c4e38728f25fd32624df2eb5bbf61c2c40c8ad5) [#5381](https://github.com/npm/cli/pull/5381) deps: `hosted-git-info@5.1.0`
+  * [`e401a81`](https://github.com/leish666/cli/commit/e401a81c784556393bad57283337283a46bd57c5) [#5381](https://github.com/npm/cli/pull/5381) deps: `npm-bundled@2.0.1`
+  * [`f4205e5`](https://github.com/leish666/cli/commit/f4205e57d6c4ee5f2ff7d21ffc116ffc420d191e) [#5381](https://github.com/npm/cli/pull/5381) deps: `diff@5.1.0`
+  * [`8f7abbe`](https://github.com/leish666/cli/commit/8f7abbe4c3ceba451eb422c6328d623e7c8eeed5) [#5381](https://github.com/npm/cli/pull/5381) deps: `npm-packlist@5.1.3`
+  * [`b12ac01`](https://github.com/leish666/cli/commit/b12ac013226b7d86b5b1847d58eabbac2846b153) [#5381](https://github.com/npm/cli/pull/5381) deps: `npm-pick-manifest@7.0.2`
+  * [`7fbf6f7`](https://github.com/leish666/cli/commit/7fbf6f7825f76906ecdec79ab15595f9e2f7b784) [#5381](https://github.com/npm/cli/pull/5381) deps: `bin-links@3.0.3`
+  * [`7c7f656`](https://github.com/leish666/cli/commit/7c7f65629c3dd4fe7fd8254ac38914cf52ad31c2) [#5381](https://github.com/npm/cli/pull/5381) deps: `read-package-json@5.0.2`
+  * [`26d2e55`](https://github.com/leish666/cli/commit/26d2e551b250972caa550d56127810648a1663a1) [#5381](https://github.com/npm/cli/pull/5381) deps: `@npmcli/query@1.2.0`
+  * [`a79ee00`](https://github.com/leish666/cli/commit/a79ee00b530b765ed219e81de77c37057c373adf) [#5381](https://github.com/npm/cli/pull/5381) deps: `cacache@16.1.3`
+  * [`2561822`](https://github.com/leish666/cli/commit/25618229b7698aa8abbfcd2ef32024809f05a1a1) [#5378](https://github.com/npm/cli/pull/5378) deps: `@npmcli/config@4.2.2`
+  * [`8ab12dc`](https://github.com/leish666/cli/commit/8ab12dc32b26db770b868cf694cedab38f4e7460) [#5323](https://github.com/npm/cli/pull/5323) deps: `@npmcli/eslint-config@3.1.0`
+* The following workspace dependencies were updated
+  * dependencies
+    * @npmcli/arborist bumped from ^5.6.1 to ^5.6.2-pre.0
+    * libnpmaccess bumped from ^6.0.4 to ^6.0.5-pre.0
+    * libnpmdiff bumped from ^4.0.5 to ^4.0.6-pre.0
+    * libnpmexec bumped from ^4.0.12 to ^4.0.13-pre.0
+    * libnpmfund bumped from ^3.0.3 to ^3.0.4-pre.0
+    * libnpmhook bumped from ^8.0.4 to ^8.0.5-pre.0
+    * libnpmorg bumped from ^4.0.4 to ^4.0.5-pre.0
+    * libnpmpack bumped from ^4.1.3 to ^4.1.4-pre.0
+    * libnpmpublish bumped from ^6.0.5 to ^6.0.6-pre.0
+    * libnpmsearch bumped from ^5.0.4 to ^5.0.5-pre.0
+    * libnpmteam bumped from ^4.0.4 to ^4.0.5-pre.0
+    * libnpmversion bumped from ^3.0.7 to ^3.0.8-pre.0
+
 ## [8.19.1](https://github.com/npm/cli/compare/v8.19.0...v8.19.1) (2022-09-01)
 
 ### Bug Fixes

@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.5-pre.0](https://github.com/leish666/cli/compare/libnpmorg-v4.0.4...libnpmorg-v4.0.5-pre.0) (2022-09-07)
+
+### Dependencies
+
+  * [`8ab12dc`](https://github.com/leish666/cli/commit/8ab12dc32b26db770b868cf694cedab38f4e7460) [#5323](https://github.com/npm/cli/pull/5323) deps: `@npmcli/eslint-config@3.1.0`
+
 ## [4.0.4](https://github.com/npm/cli/compare/libnpmorg-v4.0.3...libnpmorg-v4.0.4) (2022-08-31)
 
 ### Dependencies
