@@ -1,5 +1,14 @@
 # Changelog
 
+## [6.0.6-pre.0](https://github.com/leish666/cli/compare/libnpmpublish-v6.0.5...libnpmpublish-v6.0.6-pre.0) (2022-09-07)
+
+### Dependencies
+
+  * [`8ab12dc`](https://github.com/leish666/cli/commit/8ab12dc32b26db770b868cf694cedab38f4e7460) [#5323](https://github.com/npm/cli/pull/5323) deps: `@npmcli/eslint-config@3.1.0`
+* The following workspace dependencies were updated
+  * devDependencies
+    * libnpmpack bumped from ^4.1.3 to ^4.1.4-pre.0
+
 ## [6.0.5](https://github.com/npm/cli/compare/libnpmpublish-v6.0.4...libnpmpublish-v6.0.5) (2022-08-31)
 
 ### Dependencies
